@@ -2,6 +2,10 @@ body{
     background-color: gray;
 }
 
+h1{
+    margin: 20px;
+}
+
 .wrapper{
     width: 95%;
     min-height: 95vh;
@@ -13,18 +17,36 @@ body{
 }
 
 .piskelWrap{
+    margin: 0 auto;
     width: 700px;
     height: 500px;
     background-image: url(img/backForPiskel.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    /* display: inline-block; */
+}
+
+.create-sprite{
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFD700;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.border{
+    border: 1px solid #FFD700;
+    background-color: antiquewhite;
 }
 
 .piskel-animation-item{
     width: 170px;
     height: 150px;
-    background-image: url(img/sk2.png);
+    /* background-image: url(img/sk2.png); */
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
