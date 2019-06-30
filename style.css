@@ -11,3 +11,23 @@ body{
     border-radius: 5px;
     box-shadow: 0;
 }
+
+.piskelWrap{
+    width: 700px;
+    height: 500px;
+    background-image: url(img/backForPiskel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.piskel-animation-item{
+    width: 170px;
+    height: 150px;
+    background-image: url(img/sk2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 17px;
+    right: 5px;
+}
