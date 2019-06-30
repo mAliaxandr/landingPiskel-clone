@@ -24,7 +24,6 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    /* display: inline-block; */
 }
 
 .create-sprite{
@@ -36,6 +35,7 @@ h1{
     display: grid;
     justify-content: center;
     align-content: center;
+    border: 1px solid #FFD700;
 }
 
 .border{
@@ -46,7 +46,6 @@ h1{
 .piskel-animation-item{
     width: 170px;
     height: 150px;
-    /* background-image: url(img/sk2.png); */
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
